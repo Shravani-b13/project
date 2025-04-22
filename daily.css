@@ -1,0 +1,56 @@
+*{
+    background-color: rgb(171, 212, 223);
+    font-family: monospace;
+}
+.main .form{
+    line-height: 35px;
+    display: inline-block;
+    width: 95%;
+    
+        background-color: white;
+        padding: 45px; /* optional padding for spacing */
+        border: 1px solid #ccc; /* optional border for visibility */
+        margin:none;
+        
+
+}
+h1{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 35%;
+   
+}
+.required:after {
+    content: " *";
+    color: red;
+    
+  }
+  .main{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 45%;
+  }
+  .required{
+    background-color: white;
+    font-size: larger;
+  }
+  #aadhar{
+    background-color: white;
+    box-sizing: px;
+  }
+  #gender{
+    background-color: white;
+  }
+  #dateTime{
+    background-color: white;
+  }
+  input{
+    border: 2px solid #ccc;
+  }
