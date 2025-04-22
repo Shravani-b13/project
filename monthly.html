@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="monthly.css">
+    <link rel="icon" type="image/png" href="css/logo1.png">
+</head>
+
+<body>
+   <div class="logo"> <img src="css/logo1.png" alt="" height="100px" class="logo" ></div>
+    <form action="monthly1.php" method="post" class="form"  enctype="multipart/form-data">
+        <div class="mainbox1">
+           <h1 > General Bus Monthly Pass Application</h1>
+          <div class="personal"> 
+            <h3>Personal Details</h3><br>
+      
+            <label for="fullName" class="required">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required><br>
+      
+            <label for="email" class="required">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+      
+            <label for="mobile" class="required">Mobile No:</label>
+            <input type="tel" id="mobile" name="mobile" required><br>
+      
+            <label for="address" class="required">Address:</label>
+            <input type="text" id="address" name="address" required><br>
+      
+            <label for="gender" class="required">Gender:</label>
+            <select name="gender" id="gender" required >
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Other">Other</option>
+            </select><br>
+            <label for="date" class="required">Date:</label>
+          <input type="datetime-local" name="date">
+          <br>
+            <label for="aadhar" class="required">Aadhar No.(Last 4 digits):</label>
+            <input type="number" id="aadhar" name="aadhar" placeholder="Last 4 digits" min="0000" max="9999" required><br>
+          </div>
+      
+          <h3>Required Documents</h3>
+      
+          <label for="residenceProof" class="required">Proof of Residence (e.g., light bill, ration card, tax receipt):</label><br>
+          <input type="file" id="residenceProof" name="residenceProof" required accept="image/*"><br>
+      
+          <label for="passportPhoto" class="required">Passport size 2 color photographs:</label><br>
+          <input type="file" id="passportPhoto" name="passportPhoto" required accept="image/*"><br>
+
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+      
+</body>
+
+</html>

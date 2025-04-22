@@ -1,0 +1,49 @@
+*{
+    background-color:#B31B1B ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form{
+    align-items: center;
+    padding: 2%;
+    
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainbox1  {
+    line-height: 35px;
+    display: inline-block;
+    width: 40%;
+     background-color: white;/*why is h1 not applied the color*/
+        padding: 45px; /* optional padding for spacing */
+        border: 1px solid #ccc; /* optional border for visibility */
+        margin-left: 25%;
+}
+      .mainbox1 .personal {
+        background-color: white;
+        padding: 10px; /* optional padding for spacing */
+      }
+      .required:after {
+        content: " *";
+        color: red;
+        margin-left: 2px;
+      }
+      
+/*
+.personal{
+    
+}*/
+h3,h1{
+    margin:0%;
+    text-align: center;
+    background-color: white;
+}
+.required{
+background-color: white;
+}
+input,select{
+    background-color: white;
+    border: 2px solid #ccc; 
+}
